@@ -12,5 +12,6 @@
 
 目前完成的有
 
-- 词袋模型（tensorflow）
+- 词袋模型（tf）
 - skip-gram（tf）
+- cbow
