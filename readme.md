@@ -14,4 +14,4 @@
 
 - 词袋模型（tf）
 - skip-gram（tf）
-- cbow
+- cbow（tf）
