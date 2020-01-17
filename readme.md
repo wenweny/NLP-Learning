@@ -6,12 +6,13 @@
 
 - python=3.6
 - tensorflow = 1.12.0
-- cpu
+- Keras = 2.24
 
 ------
 
 目前完成的有
 
 - 词袋模型（tf）
-- skip-gram（tf）
-- cbow（tf）
+- Skip-gram（tf）
+- Cbow（tf）
+- Keras-BiLTSM-NER(keras)
