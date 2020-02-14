@@ -1,12 +1,13 @@
 ## NLP-Learning
 
-一个学习NLP的仓库
+一个学习 NLP (DL) 的仓库
 
 使用环境：
 
 - python=3.6
 - tensorflow = 1.12.0
 - Keras = 2.24
+- pytorch = 1.3.1
 
 ------
 
@@ -16,3 +17,5 @@
 - Skip-gram（tf）
 - Cbow（tf）
 - Keras-BiLTSM-NER(keras)
+- pytorch
+  - LinearRegression
