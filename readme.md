@@ -19,3 +19,4 @@
 - Keras-BiLTSM-NER(keras)
 - pytorch
   - LinearRegression
+- CRF-NER(sklearn_crfsuite)
