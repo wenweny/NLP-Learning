@@ -21,4 +21,3 @@
   - LinearRegression
 - CRF-NER(sklearn_crfsuite)
 - leetcode（code+doc）
-  - 1，21，367
