@@ -57,6 +57,7 @@ class CircleLink:
             cur = cur.next
         cur.next = tmp
         self.show_value.append((self.pos, tmp.val))
+        self.head = self.head.next
 
     def show(self):
         output_list = []
