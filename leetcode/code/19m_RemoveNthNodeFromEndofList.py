@@ -45,7 +45,7 @@ class Solution:
         while fast and fast.next:
             fast = fast.next
             slow = slow.next
-            
+
         # 否则在这会出错，NoneType没有.next
         slow.next = slow.next.next
         return dummy.next
