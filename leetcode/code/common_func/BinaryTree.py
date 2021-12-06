@@ -58,7 +58,7 @@ class Tree:
         if current_level == depth:
             return
         gap = depth - current_level - 1
-
+        # gap=int(((self.deepest_gap + 1) // 2) * pow(2, (depth - row - 2)))
         # print("row:", row, "col:", col, "val:", current_node.val, "level:", current_level, "gap:", gap)
 
         if current_node.left:
@@ -74,7 +74,9 @@ class Tree:
 
         depth = self.get_depth(root)
         height = depth * 2 - 1
-        width = pow(2, (depth - 2) * 3 + 1)
+        # width = pow(2, (depth - 2) * 3 + 1)
+        deepest_num = pow(2, depth - 1)
+        width = (deepest_num - 1) * self.deepest_gap + deepest_num
 
         res = [[" " for i in range(width)] for j in range(height)]
         self.write_array2(root, 0, int(width / 2), res, depth)
